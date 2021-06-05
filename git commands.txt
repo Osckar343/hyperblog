@@ -108,3 +108,15 @@ Conclusión: Lo mejor que puedes hacer para salvar tu puesto y evitar un incendi
 
 ///////////////////// INTRO TO BRANCHES /////////////////////////////////
 
+//you can create a new brange with:
+
+git brange <brangeName>
+
+//then, you can switch among your branches with checkout
+
+git checkout <brangeName>
+
+git checkout master
+
+///////// FUSION OF BRANGES //////////////////
+
