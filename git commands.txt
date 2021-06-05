@@ -1,0 +1,57 @@
+
+////CONFIG GIT///
+
+git config --global user.name "Oscar Mendez" //change your name.
+
+git config --global user.email "oscarandres131@hotmail.com" //change your email.
+
+git config --list //shows a list of your information (including name and email)
+
+////// FIRST STEPS //////////
+
+git init //Starts a git repository in your folder
+
+git add file.txt //Adds a change of the file(s) to the staging
+
+git rm --cached file.txt //remove (rm) a file from the staging
+
+git commit -m "Uploading a commit" 
+
+//if you write "git commit" without a message, you will redirected to a new place and you must  write a message for your commit and then press "ESC + SHIFT + Z(Twice)" 
+//This is a way to save in VIM (ESC + SHIFT + Z(Twice)) 
+
+//////////////// ANALAZING CHANGES OF YOUR PROJECT ///////////////////
+
+git show //shows you all the deep changes of your file (what you added or deleted or changed in a specific line of code)
+
+git log //shows you all the commits and its respective info of all your project (You can exit pressing "q" or "z")
+
+git log file.txt // show all the history of the file changes
+
+git diff <idRecentCommit> <idOldCommit> //This compares specific commics and shows you the deep changes (You can exit pressing "q" or "z")
+
+
+////// BRANCHES (MERGE) /////////
+
+//This is called here in the industry
+
+development //Branch of experiments
+
+hotfix //branch of fixing bugs
+
+////////////////////////////
+
+
+//////////// GETTING BACK IN THE TIME IN OUR REPOSITY//////////
+
+There are two types of git reset: hard and soft. 
+
+$ git reset <idCommit> --hard //THIS DELETE ALL YOUR OLD COMMITS 
+$ git reset <idCommit> --hard
+
+
+
+
+
+
+
