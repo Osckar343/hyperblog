@@ -150,5 +150,20 @@ Y sí, las palabras importan.
 Por lo que de aquí en adelante cada vez que escuches a Freddy mencionar “master” debes saber que hace referencia a “main”
 
 
+/////////// USING GITHUB (REMOTE) /////////////////
+
+git remote add origin <yourLink>
+
+git remote -v //you can see your origin where you can fetch and push
+
+//This is a special case, but in case you have it, probably you will want to PUSH your commits to a remote repository.
+//You can see like there are two differente "histories". Your local project is a history, and the online project on github is other "History"
+//In that case you have to use "--allow-unrelated-histories" on your push.
+
+git push origin main --allow-unrelated-histories
+
+/////////////// PUBLIC KEYS AND PRIVATE KEYS //////////////////
+
+
 
 
