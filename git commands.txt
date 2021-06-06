@@ -120,3 +120,7 @@ git checkout master
 
 ///////// FUSION OF BRANGES //////////////////
 
+//It's important to make a merge positioned in the branch you want to merge.
+//Example: If you want to merge "master" and "cabecera", you need to be in "master" because it's your main branch.
+
+
