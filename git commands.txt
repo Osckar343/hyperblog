@@ -199,3 +199,39 @@ El colaborador hace los cambios que desea en la rama y lo vuelve a subir al remo
 Se aceptan los cambios en GitHub
 Se hace merge a master desde GitHub
 Importante: Cuando se modifica una rama, también se modifica el pull request.
+
+/////////// GIT STASH /////////////////////
+
+If you made a change on a file but you don't want to do a commit o send it to the staging, you can save the file temporaly in STASH
+
+//1. doing changes to a file.
+//2. aply stash 
+
+git stash 
+
+//you can check your files with
+
+git stash list.
+
+//if you want to save that changes to another branch, you can use:
+
+git stash branch <nameOfTheBranch>
+
+//if you only want to delete your changes, simply use
+
+git stash drop
+
+//this is a super power tool because you can made changes and experiment with your project but if you don't want to save it, you can stash and your project will be intacted
+
+///////////// GIT CLEAN //////////////////
+
+//git is very smart, he knows when there are duplicated files, like logs.
+//in that case you can use git CLEAN
+
+git clean --dry-run  //WOULD... this is like a simulation, but it doesn't delete your files
+
+git clean -f //delete your files
+
+
+/////////////// GIT CHERRY-PICK (OLD COMMITS TO HEAD OF A BRANCH) /////////////////
+
