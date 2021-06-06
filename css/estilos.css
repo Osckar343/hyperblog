@@ -26,3 +26,9 @@ body {
     color: white;
     display: block;
 }
+
+footer {
+    background-color: black;
+    color: white;
+    height: 40px;
+}
