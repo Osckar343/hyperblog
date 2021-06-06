@@ -235,3 +235,8 @@ git clean -f //delete your files
 
 /////////////// GIT CHERRY-PICK (OLD COMMITS TO HEAD OF A BRANCH) /////////////////
 
+//you can join a commit from other branch to other brange with git cherry-PICK
+
+git cherry-pick <idCommit>
+
+/////////////// RECONSTRUYENDO COMMITS EN GIT CON AMMEND ////////////
