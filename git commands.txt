@@ -164,6 +164,21 @@ git push origin main --allow-unrelated-histories
 
 /////////////// PUBLIC KEYS AND PRIVATE KEYS //////////////////
 
+///////// ALIAS ///////////////
 
+
+git log --graph --decorate --oneline
+
+//if you have a huge command, you can make alias in this way:
+
+alias arbolito="git log --graph --decorate --oneline"
+
+///////////////// TAGS ////////////////////////
+
+Crear un nuevo tag y asignarlo a un commit: git tag -a nombre-del-tag id-del-commit.
+Borrar un tag en el repositorio local: git tag -d nombre-del-tag.
+Listar los tags de nuestro repositorio local: git tag o git show-ref --tags.
+Publicar un tag en el repositorio remoto: git push origin --tags.
+Borrar un tag del repositorio remoto: git tag -d nombre-del-tag y git push origin :refs/tags/nombre-de
 
 
